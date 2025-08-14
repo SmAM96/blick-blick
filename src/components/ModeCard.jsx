@@ -17,7 +17,7 @@ function ModeCard({
 
   return (
     <div
-      className={`relative  group rounded-3xl h-60 p-[1px] w-400 bg-gradient-to-r text-left ${grad} shadow-md hover:scale-105 hover:shadow-lg
+      className={`relative  group rounded-3xl h-60 p-[1px] w-full sm:w-80 bg-gradient-to-r text-left ${grad} shadow-md hover:scale-105 hover:shadow-lg
 `}
     >
       <div className="rounded-3xl bg-white p-6 h-full flex flex-col">

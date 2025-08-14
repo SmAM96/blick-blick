@@ -28,7 +28,7 @@ function App() {
             Pick a mod and start your speed reading journey!
           </div>
         </div>
-        <div className="mt-8 flex gap-5 justify-center">
+        <div className="mt-8 flex flex-col md:flex-row gap-5 justify-center items-center">
           <ModeCard
             emoji="⏱️"
             title="Test Mode"
@@ -76,7 +76,7 @@ function App() {
           <div>
             <h4 className="font-bold text-lg mb-2">2. Start Reading</h4>
             <p className="text-gray-500">
-              Words appear at your set speed — keep up!
+              Words appear at your set speed, keep up!
             </p>
           </div>
           <div>
@@ -87,7 +87,7 @@ function App() {
           </div>
         </div>
         <footer className="mt-20 py-6 bg-green-50 text-center text-gray-600 text-sm">
-          © {new Date().getFullYear()} Blick-Blick — Speed Reading Companion
+          © {new Date().getFullYear()} Blick-Blick - Speed Reading Companion
         </footer>
       </div>
     </>
